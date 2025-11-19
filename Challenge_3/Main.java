@@ -11,12 +11,10 @@ public class Main {
         Cours c1 = new Cours(101, "Java");
         Cours c2 = new Cours(102, "JS");
 
-        // Inscriptions
         e1.inscrire(c1);
         e1.inscrire(c2);
         e2.inscrire(c1);
 
-        // Afficher
         e1.afficherCours();
         e2.afficherCours();
 
